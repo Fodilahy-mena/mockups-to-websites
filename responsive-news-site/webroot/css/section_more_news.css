@@ -25,3 +25,8 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+@media (min-width: 768px) {
+  .section_container {
+    padding: 2.5rem 4.5rem;
+  }
+}
