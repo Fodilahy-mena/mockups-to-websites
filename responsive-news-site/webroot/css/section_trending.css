@@ -3,10 +3,14 @@
 }
 
 @media (min-width: 768px) {
-  .section_navigation-trend {
+  #section_trending {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  }
+  #section_trending > header {
+    grid-column: 1 / 3;
+    grid-row: 1;
   }
   .article_swatch:nth-of-type(2) ~ .article_swatch {
     display: none;
