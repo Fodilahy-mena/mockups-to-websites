@@ -76,13 +76,12 @@ body > footer h2 {
   grid-template-columns: repeat(3, 1fr);
   margin-block-start: 0;
 }
-}
 
 .links_social {
   grid-column: 2;
   grid-row: 2;
   align-self: end;
-  margin-inline-start: 16rem;
+  margin-inline-start: 10rem;
 }
 body > footer .form_subscribe {
   grid-column: 1;
@@ -92,5 +91,8 @@ body > footer .form_subscribe {
 }
 body > footer {
   padding: 2.5rem 5rem;
+}
+.link_primary {
+  display: block;
 }
 }
