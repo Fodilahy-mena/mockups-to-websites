@@ -95,4 +95,10 @@ body > footer {
 .link_primary {
   display: block;
 }
+.links_site > .link_primary {
+  margin: 0.5rem 0.5rem;
+}
+.links_site > .link_secondary {
+  margin: 0.5rem 0.5rem;
+}
 }
