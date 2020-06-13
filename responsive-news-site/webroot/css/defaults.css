@@ -50,6 +50,5 @@ nav > ul {
   main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-width: 1440px;
   }
 }

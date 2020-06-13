@@ -141,3 +141,14 @@ body > nav > ul a:hover {
     display: none;
   }
 }
+@media (min-width: 924px) {
+  body > nav {
+    display: flex;
+  }
+
+  body > nav > ul {
+    display: flex;
+    /* position: absolute; */
+    /* justify-content: flex-end; */
+  }
+}
