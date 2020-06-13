@@ -46,3 +46,10 @@ nav > ul {
   margin: 0;
   padding: 0;
 }
+@media (min-width: 1118px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 1440px;
+  }
+}

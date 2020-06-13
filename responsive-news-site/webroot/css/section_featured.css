@@ -31,3 +31,12 @@
     padding-block-end: 5rem;
 }
 }
+@media (min-width: 1118px) {
+main #section_featured {
+  display: inline-flex;
+  }
+
+  #section_featured .article_card:nth-of-type(1) {
+  padding-block-start: 10rem;
+  }
+}

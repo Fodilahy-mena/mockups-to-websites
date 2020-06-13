@@ -39,3 +39,11 @@
     grid-row: 1;
   }
 }
+@media (min-width: 1118px) {
+  #section_more_news {
+    display: inline-block;
+  }
+  .section_container {
+    padding: 4.5rem 6rem;
+  }
+}
