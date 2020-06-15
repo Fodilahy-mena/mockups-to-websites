@@ -18,7 +18,7 @@
 }
 
 
-  @media (min-width: 924px) {
+  @media (min-width: 1440px) {
   #section_trending {
     display: grid;
     grid-column: 1 / 3;

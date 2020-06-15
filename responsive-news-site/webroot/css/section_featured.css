@@ -31,7 +31,7 @@
     padding-block-end: 5rem;
 }
 }
-@media (min-width: 924px) {
+@media (min-width: 1440px) {
 main #section_featured {
   display: inline-flex;
   }
