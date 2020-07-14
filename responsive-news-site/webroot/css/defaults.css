@@ -1,5 +1,18 @@
+/* Use font Roboto */
+
+@font-face {
+  font-family: myRoboto;
+  src: local('Roboto'),
+       local('Roboto-Regular'),
+       local('Roboto Regular'),
+       url('../fonts/roboto-regular.ttf') format("woff2"),
+       url('../fonts/roboto-regular.ttf') format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: myRoboto;
   font-size: 16px;
   line-height: 1.25;
 }
